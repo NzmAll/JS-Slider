@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slider</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="./js/main.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="small-images d-flex justify-content-between mt-5">
+        <a
+          href="./assets/images/cat-img.jpg"
+          class="border border-warning border-5"
+        >
+          <img class="img-fluid" src="./assets/images/cat-img.jpg" />
+        </a>
+        <a
+          href="./assets/images/dog-img.jpg"
+          class="border border-warning border-5"
+        >
+          <img class="img-fluid" src="./assets/images/dog-img.jpg" />
+        </a>
+        <a
+          href="./assets/images/rabbit-img.webp"
+          class="border border-warning border-5"
+        >
+          <img class="img-fluid" src="./assets/images/rabbit-img.webp" />
+        </a>
+      </div>
+    </div>
+
+    <div class="popup">
+      <div class="image-slider">
+        <img src="./assets/images/cat-img.jpg" class="img-fluid" />
+        <div class="icons">
+          <div class="prev-icon">
+            <i class="fa-solid fa-chevron-left"></i>
+          </div>
+          <div class="next-icon">
+            <i class="fa-solid fa-angle-right"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
